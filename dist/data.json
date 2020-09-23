@@ -6,7 +6,7 @@
         "phone": "353(0)899616949",
         "email": "samuelemyrs@gmail.com",
         "linkedIn": "https://www.linkedin.com/in/samuel-chika-8278a89a",
-        "link": "samuelchika.netlify.app",
+        "link": "samuelchika-portfolio.netlify.app",
         "cvLink": "samuelchika-cv.netlify.app",
         "briefBio": "Detail-oriented and best-performing professional with over 4 years of extensive experience, very strong background in IT Support/ Technician, IT Consultancy and Software / Application Support with qualities such as self-discipline, team-player and ability to work with little or no supervision. Proven history of success with hardware and software. Expert in ensuring customers satisfaction - locally or remote. Skilled at providing support – remote or locally, for network, desktop, web technologies. Having exposure to a wide range of IT technologies & able to play a key role in diagnosing hardware, software and networking problems to ensure that quality solutions meet business objectives."
     },
@@ -141,6 +141,5 @@
             "year": "",
             "url": "https://samuelchika.netlify.app"
         }
-    ],
-    "portfolio": "samuelchika.netlify.app"
+    ]
 }
