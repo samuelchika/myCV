@@ -1,0 +1,32 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@600&display=swap');
+
+/* Above are the code to reset all html elements */
+/*
+    Author: Samuel Chika;
+    Location: Dublin Ireland;
+
+*/
+
+/*
+        font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Nunito', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F1F0EA;
+    font-family: 'Nunito', sans-serif;
+    margin: 4rem;
+}
+.summaryDiv {
+    line-height: 0.9rem;
+}
+

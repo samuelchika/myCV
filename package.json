@@ -1,0 +1,22 @@
+{
+  "name": "rildwancv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "lite-server",
+    "start:dev": "npm run server",
+    "start:watch": "tsc -w",
+    "start": "concurrently npm:start:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.5.1",
+    "jquery": "^3.5.1",
+    "liteserver": "^0.3.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
