@@ -32,6 +32,7 @@ export class Bio {
         const spanB = new ElementCreate('DIV');
         const spanC = new ElementCreate('DIV');
         const spanD = new ElementCreate('DIV');
+        const spanE = new ElementCreate('DIV');
 
         const iconAddress: string[] = FontAwesome.EDUCATION.split(" ");
         const iconEmail: string[] = FontAwesome.EMAIL.split(" ");
@@ -89,13 +90,13 @@ export class Bio {
             spanD.setElementText("&nbsp;");
             spanD.setChild(cvAnchor.getElement());
         }
-        if((this.bio.link) && (this.bio.cvLink)) {
-            spanD.setElementText("&emsp; | &emsp;");
-        }
+        // if((this.bio.link) && (this.bio.cvLink)) {
+        //     spanD.setElementText("&emsp; | &emsp;");
+        // }
         if(this.bio.link) {
-            spanD.setChild(this.getFontAwesome(iconLink));
-            spanD.setElementText('&nbsp;');
-            spanD.setChild(linkAnchor.getElement());
+            spanE.setChild(this.getFontAwesome(iconLink));
+            spanE.setElementText('&nbsp;');
+            spanE.setChild(linkAnchor.getElement());
         }
 
 
@@ -109,7 +110,8 @@ export class Bio {
             spanB.getElement(),
             spanC.getElement()
         ]);
-        ((this.bio.link) || (this.bio.cvLink) ) && (right.setChild(spanD.getElement()));
+        (this.bio.cvLink)  && (right.setChild(spanD.getElement()));
+        (this.bio.link)  && (right.setChild(spanE.getElement()));
         return right.getElement();
     }
 

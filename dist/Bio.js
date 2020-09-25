@@ -28,6 +28,7 @@ export class Bio {
         const spanB = new ElementCreate('DIV');
         const spanC = new ElementCreate('DIV');
         const spanD = new ElementCreate('DIV');
+        const spanE = new ElementCreate('DIV');
         const iconAddress = FontAwesome.EDUCATION.split(" ");
         const iconEmail = FontAwesome.EMAIL.split(" ");
         const iconPhone = FontAwesome.PHONE.split(" ");
@@ -81,13 +82,13 @@ export class Bio {
             spanD.setElementText("&nbsp;");
             spanD.setChild(cvAnchor.getElement());
         }
-        if ((this.bio.link) && (this.bio.cvLink)) {
-            spanD.setElementText("&emsp; | &emsp;");
-        }
+        // if((this.bio.link) && (this.bio.cvLink)) {
+        //     spanD.setElementText("&emsp; | &emsp;");
+        // }
         if (this.bio.link) {
-            spanD.setChild(this.getFontAwesome(iconLink));
-            spanD.setElementText('&nbsp;');
-            spanD.setChild(linkAnchor.getElement());
+            spanE.setChild(this.getFontAwesome(iconLink));
+            spanE.setElementText('&nbsp;');
+            spanE.setChild(linkAnchor.getElement());
         }
         spanA.setClass('mb-2');
         spanC.setClass('mt-2');
@@ -97,7 +98,8 @@ export class Bio {
             spanB.getElement(),
             spanC.getElement()
         ]);
-        ((this.bio.link) || (this.bio.cvLink)) && (right.setChild(spanD.getElement()));
+        (this.bio.cvLink) && (right.setChild(spanD.getElement()));
+        (this.bio.link) && (right.setChild(spanE.getElement()));
         return right.getElement();
     }
     getFontAwesome(classes) {
