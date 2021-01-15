@@ -28,12 +28,16 @@
                 "Following workplace health and safety procedures.", "Working at an assembly line where you pack products into boxes and pallets."
             ]
         },{
-            "companyName": "",
+            "companyName": "Software Developer (Freelance)",
             "startDate": "",
             "endDate": "",
-            "title": "Software Developer (Freelance)",
+            "title": "",
             "description": "",
-            "contribution": []
+            "contribution": [
+                "Software Development",
+                "Troubleshoting",
+                "Support"
+            ]
         },{
             "companyName": "National Petroleum Cooperation, Ikoyi, Lagos",
             "startDate": "02/2019",
