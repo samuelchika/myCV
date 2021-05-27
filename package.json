@@ -1,7 +1,7 @@
 {
-  "name": "rildwancv",
+  "name": "samuelchikacv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Normal CV template\r # myCV",
   "main": "index.js",
   "scripts": {
     "server": "lite-server",
@@ -9,7 +9,7 @@
     "start:watch": "tsc -w",
     "start": "concurrently npm:start:*"
   },
-  "author": "",
+  "author": "Samuel Chika",
   "license": "ISC",
   "dependencies": {
     "@types/jquery": "^3.5.1",
@@ -17,6 +17,14 @@
     "liteserver": "^0.3.0"
   },
   "devDependencies": {
-    "lite-server": "^2.5.4"
-  }
+    "lite-server": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelchika/myCV.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelchika/myCV/issues"
+  },
+  "homepage": "https://github.com/samuelchika/myCV#readme"
 }
